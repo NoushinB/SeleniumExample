@@ -17,7 +17,10 @@ public class Main {
        /* ScrollToElement scrollToElement=new ScrollToElement(driver);
         scrollToElement.performScrollToElement();*/
 
-        SwitchToActiveWindow switchToActiveWindow=new SwitchToActiveWindow(driver);
-        switchToActiveWindow.performSwitchToActiveWindow();
+       /* SwitchToActiveWindow switchToActiveWindow=new SwitchToActiveWindow(driver);
+        switchToActiveWindow.performSwitchToActiveWindow();*/
+        SwitchToAlert switchToAlert=new  SwitchToAlert(driver);
+        switchToAlert.performSwitchToAlert();
+
     }
     }
