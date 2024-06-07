@@ -4,11 +4,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 
 public class KeyboardAndMouseInput {
-    public static void main(String[] args) {
+    private WebDriver driver;
+    KeyboardAndMouseInput(WebDriver driver){
+        this.driver=driver;
+    }
+    public  void performKeyboardAndMouseInput() {
 
-        System.setProperty("webdriver.chrome.driver", "C:/Users/96475/Downloads/chromedriver-win64/chromedriver.exe");
 
-        WebDriver driver = new ChromeDriver();
 
         driver.get("https://formy-project.herokuapp.com/keypress");
         WebElement name=driver.findElement( By.id("name"));
