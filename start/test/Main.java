@@ -11,7 +11,10 @@ public class Main {
        // KeyboardAndMouseInput keyboardAndMouseInput=  new KeyboardAndMouseInput(driver);
        // keyboardAndMouseInput.performKeyboardAndMouseInput();
 
-        UsingAutocomplete usingAutocomplete=new UsingAutocomplete(driver);
-        usingAutocomplete.performAutocomplete();
+        /*UsingAutocomplete usingAutocomplete=new UsingAutocomplete(driver);
+        usingAutocomplete.performAutocomplete();*/
+
+        ScrollToElement scrollToElement=new ScrollToElement(driver);
+        scrollToElement.performScrollToElement();
     }
     }
