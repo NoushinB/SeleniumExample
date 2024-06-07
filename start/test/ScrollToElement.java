@@ -15,10 +15,10 @@ public class ScrollToElement {
         WebElement name = driver.findElement(By.id("name"));
         Actions actions = new Actions(driver);
         actions.moveToElement(name);
-        name.sendKeys("Meaghan Lewis");
+        name.sendKeys("Noushin");
 
         WebElement date = driver.findElement(By.id("date"));
-        date.sendKeys("01/01/2020");
+        date.sendKeys("07/06/2024");
 
         driver.quit();
     }
