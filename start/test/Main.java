@@ -14,7 +14,10 @@ public class Main {
         /*UsingAutocomplete usingAutocomplete=new UsingAutocomplete(driver);
         usingAutocomplete.performAutocomplete();*/
 
-        ScrollToElement scrollToElement=new ScrollToElement(driver);
-        scrollToElement.performScrollToElement();
+       /* ScrollToElement scrollToElement=new ScrollToElement(driver);
+        scrollToElement.performScrollToElement();*/
+
+        SwitchToActiveWindow switchToActiveWindow=new SwitchToActiveWindow(driver);
+        switchToActiveWindow.performSwitchToActiveWindow();
     }
     }
