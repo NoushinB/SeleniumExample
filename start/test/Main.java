@@ -23,8 +23,11 @@ public class Main {
      /*   SwitchToAlert switchToAlert=new  SwitchToAlert(driver);
         switchToAlert.performSwitchToAlert();*/
 
-        ExecuteJavascript executeJavascript=new ExecuteJavascript(driver);
-        executeJavascript.performExecuteJavascript();
+        /*ExecuteJavascript executeJavascript=new ExecuteJavascript(driver);
+        executeJavascript.performExecuteJavascript();*/
+
+        DragAndDrop dragAndDrop=new DragAndDrop(driver);
+        dragAndDrop.performDragAndDrop();
 
     }
     }
