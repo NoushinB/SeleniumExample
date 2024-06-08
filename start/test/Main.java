@@ -19,8 +19,12 @@ public class Main {
 
        /* SwitchToActiveWindow switchToActiveWindow=new SwitchToActiveWindow(driver);
         switchToActiveWindow.performSwitchToActiveWindow();*/
-        SwitchToAlert switchToAlert=new  SwitchToAlert(driver);
-        switchToAlert.performSwitchToAlert();
+
+     /*   SwitchToAlert switchToAlert=new  SwitchToAlert(driver);
+        switchToAlert.performSwitchToAlert();*/
+
+        ExecuteJavascript executeJavascript=new ExecuteJavascript(driver);
+        executeJavascript.performExecuteJavascript();
 
     }
     }
