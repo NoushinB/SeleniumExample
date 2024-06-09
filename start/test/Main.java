@@ -33,8 +33,11 @@ public class Main {
         radiobuttons.performRadiobuttons();*/
 
 
-        Datepicker datepicker=new Datepicker(driver);
-        datepicker.performDatepicker();
+        /*Datepicker datepicker=new Datepicker(driver);
+        datepicker.performDatepicker();*/
+
+        Dropdown dropdown=new Dropdown(driver);
+        dropdown.performDropdown();
 
     }
     }
