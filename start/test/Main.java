@@ -26,8 +26,10 @@ public class Main {
         /*ExecuteJavascript executeJavascript=new ExecuteJavascript(driver);
         executeJavascript.performExecuteJavascript();*/
 
-        DragAndDrop dragAndDrop=new DragAndDrop(driver);
-        dragAndDrop.performDragAndDrop();
+        /*DragAndDrop dragAndDrop=new DragAndDrop(driver);
+        dragAndDrop.performDragAndDrop();*/
 
+        Radiobuttons radiobuttons=new  Radiobuttons(driver);
+        radiobuttons.performRadiobuttons();
     }
     }
