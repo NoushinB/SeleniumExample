@@ -36,8 +36,11 @@ public class Main {
         /*Datepicker datepicker=new Datepicker(driver);
         datepicker.performDatepicker();*/
 
-        Dropdown dropdown=new Dropdown(driver);
-        dropdown.performDropdown();
+        /*Dropdown dropdown=new Dropdown(driver);
+        dropdown.performDropdown();*/
+
+        FileUpload fileUpload=new FileUpload(driver);
+        fileUpload.performFileUpload();
 
     }
     }
