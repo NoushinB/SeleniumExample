@@ -29,7 +29,12 @@ public class Main {
         /*DragAndDrop dragAndDrop=new DragAndDrop(driver);
         dragAndDrop.performDragAndDrop();*/
 
-        Radiobuttons radiobuttons=new  Radiobuttons(driver);
-        radiobuttons.performRadiobuttons();
+        /*Radiobuttons radiobuttons=new  Radiobuttons(driver);
+        radiobuttons.performRadiobuttons();*/
+
+
+        Datepicker datepicker=new Datepicker(driver);
+        datepicker.performDatepicker();
+
     }
     }
