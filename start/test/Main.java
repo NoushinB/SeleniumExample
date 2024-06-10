@@ -11,8 +11,8 @@ public class Main {
        // KeyboardAndMouseInput keyboardAndMouseInput=  new KeyboardAndMouseInput(driver);
        // keyboardAndMouseInput.performKeyboardAndMouseInput();
 
-        /*UsingAutocomplete usingAutocomplete=new UsingAutocomplete(driver);
-        usingAutocomplete.performAutocomplete();*/
+        UsingAutocomplete usingAutocomplete=new UsingAutocomplete(driver);
+        usingAutocomplete.performAutocomplete();
 
        /* ScrollToElement scrollToElement=new ScrollToElement(driver);
         scrollToElement.performScrollToElement();*/
@@ -39,8 +39,8 @@ public class Main {
         /*Dropdown dropdown=new Dropdown(driver);
         dropdown.performDropdown();*/
 
-        FileUpload fileUpload=new FileUpload(driver);
-        fileUpload.performFileUpload();
+       /* FileUpload fileUpload=new FileUpload(driver);
+        fileUpload.performFileUpload();*/
 
     }
     }
