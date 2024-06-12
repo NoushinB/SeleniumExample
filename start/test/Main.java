@@ -42,8 +42,11 @@ public class Main {
        /* FileUpload fileUpload=new FileUpload(driver);
         fileUpload.performFileUpload();*/
 
-        Form form=new Form(driver);
-        form.completeWebForm();
+       /* Form form=new Form(driver);
+        form.completeWebForm();*/
+
+        ContextMenu contextMenu=new ContextMenu(driver);
+        contextMenu.testContextMenu();
 
     }
     }
