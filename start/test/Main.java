@@ -45,8 +45,11 @@ public class Main {
        /* Form form=new Form(driver);
         form.completeWebForm();*/
 
-        ContextMenu contextMenu=new ContextMenu(driver);
-        contextMenu.testContextMenu();
+       /* ContextMenu contextMenu=new ContextMenu(driver);
+        contextMenu.testContextMenu();*/
+        ClickAndHold clickAndHold=new ClickAndHold(driver);
+        clickAndHold.PerformClickAndHold();
+
 
     }
     }
