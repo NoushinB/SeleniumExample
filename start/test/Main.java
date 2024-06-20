@@ -47,8 +47,12 @@ public class Main {
 
        /* ContextMenu contextMenu=new ContextMenu(driver);
         contextMenu.testContextMenu();*/
-        ClickAndHold clickAndHold=new ClickAndHold(driver);
-        clickAndHold.PerformClickAndHold();
+
+        /*ClickAndHold clickAndHold=new ClickAndHold(driver);
+        clickAndHold.PerformClickAndHold();*/
+
+        DoubleClick doubleClick=new DoubleClick(driver);
+        doubleClick.performDoubleClick();
 
 
     }
