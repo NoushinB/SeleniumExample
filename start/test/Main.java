@@ -51,8 +51,14 @@ public class Main {
         /*ClickAndHold clickAndHold=new ClickAndHold(driver);
         clickAndHold.PerformClickAndHold();*/
 
-        DoubleClick doubleClick=new DoubleClick(driver);
-        doubleClick.performDoubleClick();
+      /*  DoubleClick doubleClick=new DoubleClick(driver);
+        doubleClick.performDoubleClick();*/
+
+
+        RightClick    rightClick=new RightClick(driver);
+        rightClick.performRightClick();
+
+
 
 
     }
